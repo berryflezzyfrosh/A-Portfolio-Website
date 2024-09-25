@@ -66,14 +66,14 @@ body
 
 .home-content {
     max-width: 600px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .home-img img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
-    width: 90%;
+    width: 60%;
     border-radius: 50%;
     border-style: dotted;
     border-width: 10px;
@@ -82,8 +82,8 @@ body
     border-left-color: #0053b8f7;
     border-top-color: #012290f7;
     border-bottom-color: #0053b8f7;
-    box-shadow: 0 0 5px #012290f7, 0 0 10px #012290f7, 0 0 15px #012290f7, 0 0 20px #0053b8f7, 0 0 25px #0053b8f7,0 0 50px #0053b8f7 ,1px 1px 100px #0053b8f7;
-    animation: fadeOut 10s ease forwards;
+    box-shadow: 0 0 5px #012290f7, 0 0 10px #012290f7, 0 0 25px #012290f7, 0 0 25px #0053b8f7, 0 0 25px #0053b8f7,0 0 50px #0053b8f7;
+    animation: fadeOut 20s ease forwards;
     
 }
 .home-content h2{
@@ -202,7 +202,7 @@ body
     border-top-color: #012290f7;
     border-bottom-color: #0053b8f7;
     box-shadow: 0 0 25px #012290f7, 0 0 25px #012290f7, 0 0 25px #012290f7, 0 0 25px #0053b8f7, 0 0 25px #0053b8f7,0 0 50px #0053b8f7;
-    animation: fadeOut 10s ease forwards;
+    animation: fadeOut 20s ease forwards;
 }
 
 .about-text h2 {
@@ -266,7 +266,7 @@ body
     font-size: 13px;
     font-weight: 13px;
     border-right: 10px;
-    border-radius: 40px;
+    border-radius: 30px;
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
               1px 1px 40px #0053b8f7;
