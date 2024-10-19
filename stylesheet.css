@@ -47,6 +47,20 @@ body
     animation: slideTop .2s ease forwards;
     animation-delay: calc(.1s * var(--i));
 }
+.navbar a::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: #0053b8f7;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    border-radius: 10px;
+ }
+ .navbar a:hover::after{
+    width: 100%;
+ }
 
 .navbar a:hover {
     color: #0053b8f7;
@@ -67,24 +81,6 @@ body
 .home-content {
     max-width: 600px;
     margin-left: 50px;
-}
-.home-img img{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 1.5rem;
-    width: 60%;
-    border-radius: 50%;
-    border-style: dotted;
-    border-width: 10px;
-    margin-right: 50px;
-    border-right-color: #012290f7;
-    border-left-color: #0053b8f7;
-    border-top-color: #012290f7;
-    border-bottom-color: #0053b8f7;
-    box-shadow: 0 0 5px #012290f7, 0 0 10px #012290f7, 0 0 25px #012290f7, 0 0 25px #0053b8f7, 0 0 25px #0053b8f7,0 0 50px #0053b8f7;
-    animation: fadeOut 20s ease forwards;
-    
 }
 .home-content h2{
     font-size: 32px;
@@ -326,8 +322,6 @@ section{
     width: 600px;
     height: 400px;
     padding: 75px 90px;
-    margin-left: 2px;
-    margin-right: 2px;
     position: relative;
 }
 .heading1{
@@ -480,7 +474,7 @@ section{
     stroke: black;
     fill: transparent;
     stroke-dasharray: 502;
-    stroke-dashoffset: 1000;
+    stroke-dashoffset: 502;
     stroke-linecap: round;
     animation: animate-bar 1s linear forwards;
 }
@@ -493,8 +487,8 @@ section{
     stroke-width: 10;
     stroke: #012290f7;
     fill:  #081b29;
-    stroke-dasharray: 500;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
     stroke-linecap: round;
 }
 .path-1{animation: animate-path1 1s 0.1s linear forwards}
@@ -689,7 +683,7 @@ section{
     transform: scale(1.01) translateY(-5px);
     color: #012290f7;
 }
-.contact-icons i{
+.contact-icons{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -757,7 +751,7 @@ section{
 .last-text p{
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     background: rgb(7, 85, 91);
     font-weight: 600;
     margin-top: 10px;
@@ -767,21 +761,23 @@ section{
 }
 .top{
     position: fixed;
+    text-decoration: none;
     bottom: 2.1rem;
     right: 2,1rem;
+    margin-left: 1200px;
+    margin-bottom: 80px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 3s ease forwards;
+    animation-delay: 2s;
 }
-.top i {
-    color: #000000;
+.top {
+    color: #051129;
+    text-decoration: none;
     background:  #0053b8f7;
-    font-size: 12px;
-    padding: 12px;
-    border-radius: 0.6rem;
-
-
-}
-.top i a:hover{
-    color: transparent;
-    background: #011f81f7;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 1.6rem;
 }
 
 

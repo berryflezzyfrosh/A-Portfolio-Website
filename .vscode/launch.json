@@ -1,15 +1,28 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Become A Developer",
-            "url": "http://HELLO:8080/index.html",
-            "webRoot": "${bjl.jpg}"
-        }
-    ]
+  "Thumbnail": null,
+  "Light0": {
+    "Red": 255,
+    "Blue": 255,
+    "Green": 255,
+    "Intensity": 100.0
+  },
+  "Light1": {
+    "Red": 255,
+    "Blue": 255,
+    "Green": 255,
+    "Intensity": 100.0
+  },
+  "Light2": {
+    "Red": 255,
+    "Blue": 255,
+    "Green": 255,
+    "Intensity": 100.0
+  },
+  "Environment": {
+    "Red": 255,
+    "Blue": 255,
+    "Green": 255,
+    "Intensity": 40.0
+  },
+  "LightRotation": 0.0
 }
